@@ -1,0 +1,23 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: in",
+      "code": "ENOENT",
+      "stack": "Error: not found: in\n    at getNotFoundError (/Users/ken/.nvm/versions/node/v16.14.0/lib/node_modules/pnpm/dist/pnpm.cjs:21148:51)\n    at Function.whichSync [as sync] (/Users/ken/.nvm/versions/node/v16.14.0/lib/node_modules/pnpm/dist/pnpm.cjs:21225:13)\n    at getCommandAbsolutePathSync (/Users/ken/.nvm/versions/node/v16.14.0/lib/node_modules/pnpm/dist/pnpm.cjs:22903:44)\n    at default_1 (/Users/ken/.nvm/versions/node/v16.14.0/lib/node_modules/pnpm/dist/pnpm.cjs:22912:32)\n    at /Users/ken/.nvm/versions/node/v16.14.0/lib/node_modules/pnpm/dist/pnpm.cjs:184716:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "/Users/ken/workspace/monorepo-is",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: in",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: in\n    at getNotFoundError (/Users/ken/.nvm/versions/node/v16.14.0/lib/node_modules/pnpm/dist/pnpm.cjs:21148:51)\n    at Function.whichSync [as sync] (/Users/ken/.nvm/versions/node/v16.14.0/lib/node_modules/pnpm/dist/pnpm.cjs:21225:13)\n    at getCommandAbsolutePathSync (/Users/ken/.nvm/versions/node/v16.14.0/lib/node_modules/pnpm/dist/pnpm.cjs:22903:44)\n    at default_1 (/Users/ken/.nvm/versions/node/v16.14.0/lib/node_modules/pnpm/dist/pnpm.cjs:22912:32)\n    at /Users/ken/.nvm/versions/node/v16.14.0/lib/node_modules/pnpm/dist/pnpm.cjs:184716:39"
+    }
+  }
+}
